@@ -15,9 +15,9 @@ nav input.form-control::placeholder {
 }
 /* tabella */
 .box-icona {
-    height: 40px;
-    width: 40px;
-    padding: 5px 10px;
+    height: 30px;
+    width: 30px;
+    padding: 2px 2px;
     border: 1px solid #6b757d;
     border-radius:5px;
     color: #6b757d;
