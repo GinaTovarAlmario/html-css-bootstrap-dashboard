@@ -1,4 +1,18 @@
 /* custom properties */
 :root {
-    
+
+}
+
+/* header */
+header {
+    height: 80px;
+    background-color: goldenrod;
+}
+#catalogo {
+    height: 80px;
+    background-color: aliceblue;
+}
+.colonna {
+    height: 80px;
+    border: 1px dashed red;
 }
