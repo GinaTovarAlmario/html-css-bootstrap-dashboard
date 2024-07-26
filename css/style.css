@@ -4,6 +4,9 @@
 }
 
 /* header */
+nav input.form-control::placeholder {
+    color: grey;
+}
 #catalogo {
     height: 80px;
     background-color: aliceblue;
