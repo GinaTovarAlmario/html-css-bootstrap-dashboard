@@ -12,7 +12,14 @@ header {
     height: 80px;
     background-color: aliceblue;
 }
+#opzioni {
+    height: 500px;
+    background-color: lightcoral;
+}
+.riga {
+    /* height: 100px; */
+}
 .colonna {
-    height: 80px;
+    height: 50px;
     border: 1px dashed red;
 }
