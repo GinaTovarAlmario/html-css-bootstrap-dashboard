@@ -8,8 +8,8 @@ nav input.form-control::placeholder {
     color: grey;
 }
 #catalogo {
-    height: 80px;
-    background-color: aliceblue;
+    min-height: 80px;
+    /* background-color: aliceblue; */
 }
 #opzioni {
     height: 500px;
