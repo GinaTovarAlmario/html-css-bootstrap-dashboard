@@ -61,13 +61,13 @@
             <div class="col-6">
                 <fieldset>
                     <label for="nome-autore" class="form-label">Nome Autore</label>
-                    <input type="text" class="form-control" id="nome-autore" placeholder="Inserisci nome autore">
+                    <input type="text" class="form-control" id="nome-autore" placeholder="Inserisci nome autore" required>
                 </fieldset>
             </div>
             <div class="col-6">
                 <fieldset>
                     <label for="cognome-autore" class="form-label">Cognome Autore</label>
-                    <input type="text" class="form-control" id="cognome-autore" placeholder="Inserisci cognome autore">
+                    <input type="text" class="form-control" id="cognome-autore" placeholder="Inserisci cognome autore" required>
                 </fieldset>
             </div>
         </div>
@@ -83,32 +83,32 @@
         <div class="row">
             <div class="col-12 col-lg-4 mt-2">
                 <label for="genere" class="form-label">Genere</label>
-                <select class="form-select" aria-label="Default select example">
+                <select class="form-select" aria-label="Default select example" required>
                     <option selected>Scegli il genere</option>
                     <option value="1">Fantasy</option>
                     <option value="2">Thriller</option>
                     <option value="3">Romance</option>
-                  </select>
+                </select>
             </div>
             <div class="col-12 col-lg-4 mt-2">
                 <fieldset>
                     <label for="anno-libro" class="form-label">Anno di pubblicazione</label>
-                    <input type="text" class="form-control" id="anno-libro" placeholder="Inserisci l'anno">
+                    <input type="number" class="form-control" id="anno-libro" placeholder="Inserisci l'anno" min="1">
                 </fieldset>
             </div>
             <div class="col-12 col-lg-4">
                 <fieldset>
                     <label for="codice-libro" class="form-label">ISBN#</label>
-                    <input type="text" class="form-control" id="codice-libro" placeholder="Inserisci il codice ISBN#">
+                    <input type="text" class="form-control" id="codice-libro" placeholder="Inserisci il codice ISBN# " maxlength="10">
                 </fieldset>
             </div>
         </div>
         <div class="row mt-3">
             <div class="col-12">
-                  <div class="mb-3">
+                <div class="mb-3">
                     <label for="note-libro" class="form-label">Note</label>
                     <textarea class="form-control" id="note-libro" rows="5">Inserisci eventuali note sul libro</textarea>
-                  </div>
+                </div>
             </div>
             <div class="col-12 mt-3">
                 <input type="checkbox" class="form-check-input" id="disponibile">

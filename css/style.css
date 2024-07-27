@@ -1,17 +1,6 @@
-/* custom properties */
-:root {
-
-}
-
 /* header */
 nav input.form-control::placeholder {
     color: grey;
-}
-#catalogo {
-    min-height: 80px;
-}
-#opzioni {
-    /* min-height: 500px; */
 }
 /* tabella */
 .box-icona {
@@ -23,7 +12,9 @@ nav input.form-control::placeholder {
     color: #6b757d;
 }
 
-.colonna {
-    height: 80px;
-    border: 1px dashed red;
+th:nth-child(2),
+td:nth-child(2) {
+    display: none;
 }
+
+
